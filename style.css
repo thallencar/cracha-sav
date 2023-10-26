@@ -78,3 +78,28 @@
     filter: drop-shadow(1px 4px 5px #0000007e);
 }
 
+@media screen and (max-width: 480px) {
+    .main {
+        margin: 20px;
+    }
+
+    .main .grupo {
+        font-size: 30px;
+    }
+
+    .main .sistemas {
+        font-size: 18px;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+
+    .perfil {
+        max-height: 15vh;
+    }
+
+    .logos-redes img {
+        max-height: 3vh;
+    }
+}
