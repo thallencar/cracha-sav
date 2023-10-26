@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 480px) {
     .main {
-        margin: 20px;
+        margin: 25px;
     }
 
     .main .grupo {
@@ -93,13 +93,11 @@
 
     .main p {
         font-size: 16px;
+        margin-top: 18px;
     }
 
     .perfil {
-        max-height: 15vh;
+        max-height: 20vh;
     }
 
-    .logos-redes img {
-        max-height: 3vh;
-    }
 }
