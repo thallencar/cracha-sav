@@ -76,9 +76,12 @@
     max-height: 5vh;
     margin: 9px 5px 5px 5px;
     filter: drop-shadow(1px 4px 5px #0000007e);
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 480px) {
+
+
     .main {
         margin: 25px;
     }
@@ -98,6 +101,10 @@
 
     .perfil {
         max-height: 20vh;
+
     }
 
+    .logos-redes img{
+        margin-bottom: 20px;
+    }
 }
