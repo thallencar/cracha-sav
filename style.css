@@ -6,6 +6,19 @@
     font-family: 'Montserrat', 'Poppins', 'Roboto', sans-serif;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.3s ease-in;
+}
+
 
 .componente-aluno{
     padding: 30px;
@@ -44,8 +57,9 @@
     border-radius: 50%;
     max-height: 23vh;
     border-style: solid;
-    color: rgba(0, 0, 255, 0.356);
+    color: rgba(0, 89, 255, 0.425);
     box-shadow: #00000044 15px 10px 20px;
+    cursor: pointer;
 }
 
 .imagem{
