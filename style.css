@@ -19,9 +19,14 @@
     animation: fadeIn 1.3s ease-in;
 }
 
+.container-alunos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .componente-aluno{
-    padding: 30px;
+    margin: 10px 20px;
 }
 
 .main{
@@ -30,17 +35,17 @@
     line-height: 1.5;
 }
 
-.main .grupo{
+.grupo{
     font-size: 40px;
     font-weight: 600;
-    color: #01a1fd;
+    color: #1d428a;
     
 }
 
-.main .sistemas{
+.projeto{
     font-size: 23px;
     font-weight: 400;
-    color: #01a1fd;
+    color: #1d428a;
     
 }
 
@@ -53,18 +58,11 @@
 }
 
 .perfil{
-    margin-top: -35px;
     border-radius: 50%;
-    max-height: 23vh;
-    border-style: solid;
-    color: rgba(0, 89, 255, 0.425);
-    box-shadow: #00000044 15px 10px 20px;
+    height: 23vh;
+    border: 3px solid  #000000a3;
+    box-shadow: #0000006b 15px 10px 20px;
     cursor: pointer;
-}
-
-.imagem{
-    display: flex;
-    justify-content: center;
 }
 
 .redes-container{
@@ -75,21 +73,17 @@
 
 .redes-container span{
     font-size: 20px;
-    display: flex;
-    justify-content: center;
     margin-top: 7px ;
 }
 
 .logos-redes a {
-    display: inline-block;
-    margin: 0px; 
+    text-decoration: none;
 }
 
 .logos-redes img{
-    border-radius:50%;
     max-height: 5vh;
-    margin: 9px 5px 5px 5px;
-    filter: drop-shadow(1px 4px 5px #0000007e);
+    margin: 9px 5px;
+    filter: drop-shadow(1px 4px 5px #0000006b);
     margin-bottom: 40px;
 }
 
@@ -104,8 +98,8 @@
         font-size: 30px;
     }
 
-    .main .sistemas {
-        font-size: 18px;
+    .main .projeto {
+        font-size: 15px;
     }
 
     .main p {
@@ -113,9 +107,13 @@
         margin-top: 18px;
     }
 
-    .perfil {
-        max-height: 20vh;
+    .container-alunos{
+        align-items: center;
+        flex-direction: column;
+    }
 
+    .componente-aluno:last-child{
+        margin-bottom: 25px;
     }
 
     .logos-redes img{
