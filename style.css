@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Roboto:wght@100;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", "Poppins", "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 @keyframes fadeIn {
@@ -28,21 +28,21 @@
 .grupo {
   font-size: 40px;
   font-weight: 600;
-  color: #1d428a;
+  color: #6a9c89;
 }
 
 .projeto {
   font-size: 23px;
   font-weight: 400;
-  color: #1d428a;
+  color: #6a9c89;
 }
 
 .main p {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   margin-top: 25px;
-  color: #000;
+  color: #477262;
 }
 
 .container-alunos {
@@ -58,8 +58,8 @@
 .perfil {
   border-radius: 50%;
   height: 23vh;
-  border: 3px solid #000000a3;
-  box-shadow: #0000006b 15px 10px 20px;
+  border: 4px solid #477262;
+  box-shadow: #9caca6 15px 10px 20px;
   cursor: pointer;
 }
 
@@ -72,6 +72,7 @@
 .redes-container span {
   font-size: 20px;
   margin-top: 7px;
+  color: #3c3c3c;
 }
 
 .logos-redes a {
@@ -81,7 +82,7 @@
 .logos-redes img {
   max-height: 5vh;
   margin: 9px 5px;
-  filter: drop-shadow(1px 4px 5px #0000006b);
+  filter: drop-shadow(2px 3px 2px #0000006b);
   margin-bottom: 40px;
 }
 
